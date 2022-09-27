@@ -1,0 +1,41 @@
+:root{
+    --primary: white;
+}
+.btn{
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.btn--primary{
+    background-color: var(--primary);
+    color: aquamarine;
+    border: 1px solid var(--primary);
+   
+}
+.btn--outline{
+    padding: 8px 20px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+   
+   
+}
+btn-medium{
+    font-size: 18px;
+    padding:8px 18px ;
+}
+btn-large{
+    font-size: 18px;
+    padding:12px 18px ;
+
+}
+.btn--medium:hover.btn--large:hover{
+    background-color: azure;
+    color: black;
+    transition: 250ms;
+    transition: all 0.3s ease-out;
+
+}
